@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>340 p2 ex</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/SlickNav/slicknav.css" >
+	<link rel="stylesheet" href="css/jquery/jquery-ui.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+	<script src="js/jquery/jquery-ui.min.js"></script>
+	<script src="js/jquery/jquery.snippet.js"></script>
+	<script src="js/randomizeColor/randomizeColor.js"></script>
+	<script src="js/scrollReveal/scrollreveal.min.js"></script>
+	<script src="js/SlickNav/jquery.slicknav.min.js"></script>
+	<script src="js/anchorScroll/jquery.anchorScroll.min.js"></script>
+	<script src="js/functionality.js" type="text/javascript"></script>
+	<script src="js/myXHR.js" type="text/javascript"></script>
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<a id="rit" href="http://www.rit.edu/"></a>
+			<div class="button-holder">
+				<ul id="menu">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#about-sec">About</a></li>
+					<li><a href="#degrees-sec">Degrees</a></li>
+					<li><a href="#minors-sec">Minors</a></li>
+					<li><a href="#employment-sec">Employment</a></li>
+					<li><a href="#people-sec">People</a></li>
+					<li><a href="#research-sec">Research</a></li>
+					<li><a href="#resources-sec">Resources</a></li>
+					<li><a href="#footer-sec">Footer</a></li>
+				</ul>
+				<!--<img src="images/burger.png"/>-->
+			</div>
+		</div>
+	</header>
+	<div id="content-wrapper">
+		<section id="top" class="space">
+			<div id="title">
+				<h1 class="upper">
+					<span id="inf" style="color:#21f3f2">Information</span>
+					<span id="sci" style="color:#ffffff">Sciences & </span>
+					<br>
+					<span id="tech" style="color:#F36E21">Technologies</span>
+					<span id="at" style="color:#ffffff">@ RIT</span>
+				</h1>
+			</div>
+		</section>
+
+		<section id="about-sec" class="space">
+			<div class="a-scroll">
+				<a href="#degrees-sec" class="anchor-scroll" data-class-to="#degrees-sec" data-on-scroll="blur-effect"><img src="images/scrollDown.png"/></a>
+			</div>
+			<div class="content-container" id="about-style">
+				<div id="about-title">
+				</div>
+				<hr>
+				<div id="about-desc" class="desc">
+				</div>
+				<hr>
+				<div id="about-quote">
+				</div>
+				<div id="about-qa">
+				</div>
+			</div>
+		</section>
+
+		<section id="degrees-sec" class="space">
+			<div class="a-scroll">
+				<a href="#minors-sec" class="anchor-scroll" data-class-to="#minors-sec" data-on-scroll="blur-effect"><img src="images/scrollDown.png"/></a>
+			</div>
+			<div class="content-container" style="background-color: white">
+				<div id="ug-h" class="heading">
+					<h1>Our Undergraduate Degrees</h1>
+				</div>
+				<div id="undergrad">
+				</div>
+			</div>
+			<div class="content-container" style="background-color: white">
+				<div class="heading">
+					<h1>Our Graduate Degrees</h1>
+				</div>
+				<div id="grad">
+				</div>
+			</div>
+		</section>
+
+		<section id="minors-sec" class="space">
+			<div class="a-scroll">
+				<a href="#employment-sec" class="anchor-scroll" data-class-to="#employment-sec" data-on-scroll="blur-effect"><img src="images/scrollDown.png"/></a>
+			</div>
+			<div class="content-container"  style="background-color: white">
+				<div id="minors-h" class="heading">
+					<h1>Our Undergraduate Minors</h1>
+				</div>
+				<div id="minors">
+				</div>
+			</div>
+		</section>
+
+		<section id="employment-sec" class="space">
+			<div class="a-scroll">
+				<a href="#people-sec" class="anchor-scroll" data-class-to="#people-sec" data-on-scroll="blur-effect"><img src="images/scrollDown.png"/></a>
+			</div>
+			<div class="content-container" style="background-color: white">
+				<div id="emp-title" class="heading">
+				</div>
+				<div class="desc" id="emp-desc">
+				</div>
+				<div id="emp-stats">
+				</div>
+				<div class="desc" id="coop-edu-desc">
+				</div>
+				<div id="employers">
+				</div>
+				<div id="careers">
+				</div>
+				<div id="stu-hist">
+				</div>
+				<div id="map-div">
+					<iframe id="map-iframe" src="http://ist.rit.edu/api/map/" scrolling="no">
+						<p>Your browser is not up to date, please upgrade browser.</p>
+					</iframe>
+				</div>
+			</div>
+		</section>
+
+		<section id="people-sec" class="space">
+			<div class="a-scroll">
+				<a href="#research-sec" class="anchor-scroll" data-class-to="#research-sec" data-on-scroll="blur-effect"><img src="images/scrollDown.png"/></a>
+			</div>
+			<div class="content-container" style="background-color: white">
+				<div id="ppl-title" class="heading">
+				</div>
+				<div id="fac-staff">
+					<div id="fac-left">
+						<h2>Faculty</h2>
+						<ul id="fac">
+						</ul>
+					</div>
+					<div id="staff-right">
+						<h2>Staff</h2>
+						<ul id="staff">
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="research-sec" class="space">
+			<div class="a-scroll">
+				<a href="#resources-sec" class="anchor-scroll" data-class-to="#resources-sec" data-on-scroll="blur-effect"><img src="images/scrollDown.png"/></a>
+			</div>
+			<div class="content-container" style="background-color: white">
+				<div id="fr-aoi">
+					<div id="fr-aoi-title" class="heading">
+						<h1>Faculty Research: Areas of Interest</h1>
+					</div>
+					<div id="aoi-div">
+						<ul id="aoi">
+						</ul>
+					</div>
+				</div>
+				<div id="fr-fm">
+					<div id="fr-fm-title" class="heading">
+						<h1>Faculty Research: Faculty Members</h1>
+					</div>
+					<ul id="fm">
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section id="resources-sec" class="space">
+			<div class="a-scroll">
+				<a href="#footer-sec" class="anchor-scroll" data-class-to="#footer-sec" data-on-scroll="blur-effect"><img src="images/scrollDown.png"/></a>
+			</div>
+			<div class="content-container" style="background-color: white">
+				<div id="sr-title" class="heading">
+				</div>
+				<div class="resources">
+				</div>
+			</div>
+		</section>
+
+		<section id="footer-sec" class="space">
+			<div class="a-scroll">
+				<a href="#top" class="anchor-scroll" data-class-to="#top" data-on-scroll="blur-effect"><img src="images/scrollUp.png"/></a>
+			</div>
+			<div class="content-container" style="background-color: #F36E21">
+				<div id="footer">
+					<div id="social-title" class="heading">
+					</div>
+					<div id="social">
+					</div>
+					<div id="footer-links">
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+</html>
